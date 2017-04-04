@@ -8,7 +8,6 @@ use Craft\Commerce_OrderModel;
 class BusinessLogic_TaxRemover implements Commerce_AdjusterInterface {
 
     public function adjust(Commerce_OrderModel &$order, array $lineItems = []){
-        throw new Exception('Break');
 
         $myAdjuster = new Commerce_OrderAdjustmentModel();
 
