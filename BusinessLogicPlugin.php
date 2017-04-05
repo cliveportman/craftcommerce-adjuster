@@ -38,7 +38,7 @@ class BusinessLogicPlugin extends BasePlugin
 
 	   	return [
 
-	    	new Commerce_TaxAdjuster
+	    	new BusinessLogic_TaxRemover
 	    	
 	   	];
 	}
