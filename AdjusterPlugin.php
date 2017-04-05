@@ -1,13 +1,13 @@
 <?php
 namespace Craft;
-require_once('Adjusters/BusinessLogic_TaxRemover.php');
+require_once('Adjusters/Adjuster_TaxRemover.php');
 
-class BusinessLogicPlugin extends BasePlugin
+class AdjusterPlugin extends BasePlugin
 {
 
 	public function getName()
 	{
-		return 'BusinessLogic';
+		return 'Adjuster';
 	}
 
 	public function getDescription()
@@ -38,7 +38,7 @@ class BusinessLogicPlugin extends BasePlugin
 
 	   	return [
 
-	    	new BusinessLogic_TaxRemover
+	    	new Adjuster_TaxRemover
 	    	
 	   	];
 	}
