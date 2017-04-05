@@ -38,7 +38,7 @@ class AdjusterPlugin extends BasePlugin
 
 	   	return [
 
-	    	new Adjuster_TaxRemover
+	    	new \Commerce\Adjusters\Adjuster_TaxRemover
 	    	
 	   	];
 	}
